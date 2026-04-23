@@ -9,6 +9,12 @@ The objective is to simulate a real-world business scenario where leadership nee
 
 ---
 
+## Dashboard Preview
+
+![Sales Dashboard](visualizations/dashboard_preview.png)
+
+---
+
 ## Business Problem
 
 Organizations rely on accurate sales data to monitor performance, forecast demand, and identify growth opportunities. Without clear reporting and analysis, it becomes difficult to understand which products drive revenue, which regions underperform, and how sales trends change over time.
@@ -46,7 +52,7 @@ The dataset represents transactional sales data for a retail business.
 
 * SQL
 * Excel
-* Data Visualization
+* Data Visualization – Tableau
 * GitHub
 
 ---
@@ -196,7 +202,6 @@ This project showcases core data analyst capabilities, including:
 
 Potential enhancements for this project:
 
-* Build a dashboard in Tableau
 * Add customer segmentation analysis
 * Perform sales forecasting
 * Automate reporting workflows
