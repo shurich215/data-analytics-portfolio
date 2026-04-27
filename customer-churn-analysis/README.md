@@ -6,7 +6,11 @@ This project analyzes customer subscription behavior to identify churn patterns,
 
 The dataset represents a subscription-based business environment and includes realistic variability in customer usage, support interactions, contract types, and churn behavior. The analysis focuses on measuring churn performance, identifying high-risk customers, and monitoring trends over time.
 
-This project demonstrates practical data analytics skills commonly used in customer success, operations, and business intelligence roles.
+This project demonstrates practical data analytics skills commonly used in customer success, operations, and business intelligence roles, including KPI development, customer segmentation, and performance monitoring.
+
+## Dashboard Preview
+
+![Dashboard Overview](visualizations/dashboard_overview.png)
 
 ---
 
@@ -35,13 +39,14 @@ The primary objectives of this analysis are to:
 
 ---
 
-## Dataset Description
+## Data Source
 
-The dataset simulates a subscription-based customer environment with realistic behavioral patterns and business variability.
+- The dataset simulates a subscription-based customer environment with realistic behavioral patterns and business variability.
+- This dataset was synthetically generated to simulate realistic customer behavior patterns for portfolio demonstration purposes.
 
 ### Dataset Characteristics
 
-- 10,000 customer records  
+- 5,000 customer records  
 - Multi-year subscription activity  
 - Realistic churn probabilities  
 - Correlated customer behavior patterns  
@@ -54,7 +59,6 @@ Unlike purely random datasets, this dataset includes behavior-driven relationshi
 - Customers with low usage are more likely to churn  
 - Customers with high support ticket volume have increased churn risk  
 - Month-to-month contracts have higher churn probability  
-- Longer tenure customers are more likely to retain  
 
 This creates stronger analytical signals and more realistic business scenarios.
 
@@ -65,14 +69,17 @@ This creates stronger analytical signals and more realistic business scenarios.
 | Column | Description |
 |-------|-------------|
 | customer_id | Unique customer identifier |
-| contract_type | Subscription contract type |
-| payment_method | Customer payment method |
-| usage_frequency | Customer engagement level |
-| tenure_months | Length of customer relationship |
-| monthly_fee | Monthly subscription cost |
-| support_tickets | Number of customer support interactions |
 | subscription_start_date | Subscription start date |
 | subscription_end_date | Subscription end date |
+| tenure_months | Length of customer relationship |
+| monthly_fee | Monthly subscription cost |
+| contract_type | Subscription contract type |
+| payment_method | Customer payment method |
+| support_tickets | Number of customer support interactions |
+| usage_frequency | Customer engagement level |
+| region | Customer region info |
+| device_type | Customer device info |
+| customer_segment | Customer Subscription plan type |
 | churned | Customer churn status |
 
 ---
@@ -113,7 +120,6 @@ The analysis includes structured SQL queries and business logic to evaluate chur
 Customers were segmented by:
 
 - Contract Type  
-- Payment Method  
 - Usage Frequency  
 - Tenure Group  
 - Support Ticket Volume  
@@ -124,7 +130,7 @@ High-risk customers were identified using indicators such as:
 
 - High support ticket counts  
 - Low usage frequency  
-- Short tenure  
+- Short customer tenure
 - Month-to-month contracts  
 
 ### Trend Analysis
@@ -149,9 +155,9 @@ The Tableau dashboard provides a consolidated view of customer retention perform
 **Customer Segmentation**
 
 - Churn by Contract Type  
-- Churn by Payment Method  
-- Churn by Tenure Group  
 - Churn by Usage Frequency  
+- Churn by Tenure Group  
+- Churn by Monthly Fee  
 
 **Trend Monitoring**
 
@@ -168,8 +174,8 @@ The Tableau dashboard provides a consolidated view of customer retention perform
 This analysis can generate insights such as:
 
 - Month-to-month customers have the highest churn rates  
+- Customers with low usage frequency represent a significant retention risk  
 - Customers with high support ticket volume are more likely to churn  
-- Low usage customers represent a major retention risk  
 - Early-tenure customers are more likely to leave  
 - Churn trends can be monitored monthly to detect performance changes  
 
@@ -179,25 +185,19 @@ These are realistic insights commonly produced by customer success and business 
 
 ## Repository Structure
 
-customer-churn-analysis/
-
-data/
-customer_churn_data.csv
-
-sql/
-customer_churn_analysis.sql
-
-dashboard/
-customer_churn_dashboard.pbix
-
-images/
-dashboard_overview.png
-churn_by_contract.png
-churn_by_tenure.png
-monthly_churn_trend.png
-
-README.md
-
+```
+customer-churn-analysis  
+│  
+├── data  
+│   └── customer_churn_data.csv  
+│  
+├── visualizations  
+│   └── dashboard_overview.png  
+│  
+├── customer_churn_analysis.sql  
+├── customer_churn_dashboard.twbx  
+└── README.md  
+```
 
 ---
 
@@ -247,11 +247,11 @@ This project demonstrates practical analytics capabilities relevant to data anal
 
 Potential improvements for extended analysis:
 
-- Improve the Year parameter to support more precise trend analysis and operational monitoring
+- Improve reporting accuracy by extending the existing Year parameter to support Month- and Day-level granularity for more detailed trend analysis
 - Predictive churn modeling  
 - Customer lifetime value forecasting  
 - Retention intervention analysis  
 - Cohort analysis  
 - Customer segmentation modeling  
 
-These enhancements mirror real-world analytics roadmap development.
+These enhancements reflect realistic next steps in production analytics environments.
