@@ -1,5 +1,4 @@
-
-# Sales Performance Analysis (SQL)
+# Sales Performance Analysis
 
 ## Project Overview
 
