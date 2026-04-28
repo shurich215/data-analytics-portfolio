@@ -48,7 +48,7 @@ Core strengths include:
 ## Featured Projects
 *These projects are designed to reflect real-world analytics workflows used in business and operational environments.*
 
-### Sales Performance Analysis
+### [Sales Performance Analysis](/sales-performance-analysis)
 
 **Objective:**
 Analyze sales performance across regions and product categories to identify revenue trends and operational improvement opportunities.
@@ -63,7 +63,7 @@ Analyze sales performance across regions and product categories to identify reve
 
 ---
 
-### Customer Churn Analysis
+### [Customer Churn Analysis](/customer-churn-analysis)
 
 **Objective:**
 Identify drivers of customer churn and develop insights to improve retention and customer satisfaction.
