@@ -58,27 +58,23 @@ The dataset represents transactional sales data for a retail business.
 
 ## Project Structure
 
-sales-performance-analysis/
-
-README.md  
-sales_performance_analysis.sql
-data/
-
 ```
-sample_sales_data.csv  
-```
-
-visualizations/
-
-```
-revenue_trend_chart.png  
-regional_sales_chart.png  
-```
-
-outputs/
-
-```
-sales_summary_report.xlsx  
+sales-performance-analysis
+│  
+├── data  
+│   └── sample_sales_data.csv  
+│  
+├── visualizations  
+│   ├── dashboard_preview.png  
+│   ├── monthly_revenue_trend.png  
+│   ├── orders_by_region.png  
+│   ├── revenue_by_region.png  
+│   ├── revenue_growth_by_month.png  
+│   └── top_products_revenue.png  
+│  
+├── sales_performance_analysis.sql  
+├── sales_performance_dashboard.twbx  
+└── README.md  
 ```
 
 ---
