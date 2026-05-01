@@ -8,7 +8,9 @@ The dataset represents a subscription-based business environment and includes re
 
 This project demonstrates practical data analytics skills commonly used in customer success, operations, and business intelligence roles, including KPI development, customer segmentation, and performance monitoring.
 
-## Dashboard Preview
+## Dashboard
+
+https://public.tableau.com/app/profile/shu.richardson/viz/CustomerChurnAnalysis_17769718823230/CustomerChurnDashboard
 
 ![Dashboard Overview](visualizations/dashboard_overview.png)
 
