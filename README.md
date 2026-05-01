@@ -1,6 +1,8 @@
 # Data Analytics Portfolio
 
-Welcome to my data analytics portfolio. This repository showcases end-to-end analytics projects focused on driving business performance, improving operations, and supporting data-driven decision-making.
+Welcome to my data analytics portfolio!  
+
+This repository showcases end-to-end analytics projects focused on driving business performance, improving operations, and supporting data-driven decision-making.
 
 I am a Business Intelligence and Data Analytics professional with 10+ years of experience delivering actionable insights, building dashboards, and developing analytical solutions that support revenue growth and operational efficiency. My work focuses on translating complex data into clear, impactful insights for stakeholders and leadership teams.
 
@@ -49,8 +51,9 @@ I specialize in business performance analysis, KPI development, and delivering i
 
 ---
 
-### [Sales Performance & Revenue Analysis](/sales-performance-analysis)
+### [Ride Revenue Analysis](/ride-revenue-analysis)
 
+Live Dashboard: https://public.tableau.com/app/profile/shu.richardson/viz/RideRevenueAnalysis/Summary
 
 **Objective:**  
 Analyze ride booking data to evaluate revenue performance, booking outcomes, and operational efficiency.

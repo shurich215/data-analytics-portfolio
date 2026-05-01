@@ -1,5 +1,5 @@
 
-# Sales Performance & Revenue Analysis
+# Ride Revenue Analysis
 
 ## Overview
 
@@ -11,7 +11,7 @@ The goal is to identify revenue drivers, understand booking outcomes, and uncove
 
 ## Dashboard
 
-https://public.tableau.com/app/profile/shu.richardson/viz/SalesPerformanceandRevenueAnalysis/Summary
+https://public.tableau.com/app/profile/shu.richardson/viz/RideRevenueAnalysis/Summary
 
 ![Dashboard Summary](images/dashboard_summary.png)
 ![Dashboard Incomplete Bookings](images/dashboard_incompleteBookings.png)
@@ -53,7 +53,8 @@ Without clear visibility, businesses risk revenue loss, poor service quality, an
 - Revenue by vehicle type and payment method
 - Monthly booking and revenue trends
 
-**Business Value:** Provides a high-level view of performance and identifies revenue drivers.
+**Business Value:**  
+Provides a high-level view of performance and identifies revenue drivers.
 
 ---
 
@@ -65,7 +66,8 @@ Without clear visibility, businesses risk revenue loss, poor service quality, an
 - Driver cancellation reasons
 - Incomplete ride rate and reasons
 
-**Business Value:** Identifies operational inefficiencies and root causes of failed bookings.
+**Business Value:**  
+Identifies operational inefficiencies and root causes of failed bookings.
 
 ---
 
@@ -80,7 +82,8 @@ Metrics analyzed by vehicle type:
 - Total revenue  
 - Revenue per customer  
 
-**Business Value:** Highlights high-performing and underperforming service segments.
+**Business Value:**  
+Highlights high-performing and underperforming service segments.
 
 ---
 
@@ -113,7 +116,7 @@ Metrics analyzed by vehicle type:
 ## Repository Structure
 
 ```
-sales-performance-revenue-analysis
+ride-revenue-analysis
 │
 ├── data
 │ └── ncr_ride_bookings.csv
@@ -123,7 +126,7 @@ sales-performance-revenue-analysis
 │ └── dashboard_incompleteBookings.png
 │ └── dashboard_details.png
 │
-├── sales_performance_revenue_analysis.twbx
+├── ride_revenue_analysis.twbx
 └── README.md
 ```
 
