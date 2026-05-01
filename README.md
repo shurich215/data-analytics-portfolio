@@ -53,7 +53,8 @@ I specialize in business performance analysis, KPI development, and delivering i
 
 ### [Ride Revenue Analysis](/ride-revenue-analysis)
 
-Live Dashboard: https://public.tableau.com/app/profile/shu.richardson/viz/RideRevenueAnalysis/Summary
+**Live Dashboard:**  
+https://public.tableau.com/app/profile/shu.richardson/viz/RideRevenueAnalysis/Summary
 
 **Objective:**  
 Analyze ride booking data to evaluate revenue performance, booking outcomes, and operational efficiency.
@@ -73,7 +74,8 @@ Identifies revenue drivers, highlights operational inefficiencies, and provides 
 
 ### [Customer Churn Analysis](/customer-churn-analysis)
 
-Live Dashboard: https://public.tableau.com/app/profile/shu.richardson/viz/CustomerChurnAnalysis_17769718823230/CustomerChurnDashboard
+**Live Dashboard:**  
+https://public.tableau.com/app/profile/shu.richardson/viz/CustomerChurnAnalysis_17769718823230/CustomerChurnDashboard
 
 **Objective:**  
 Identify key drivers of customer churn and generate insights to improve retention and customer satisfaction.
@@ -93,7 +95,8 @@ Helps identify at-risk customers and supports data-driven retention strategies.
 
 ### [Sales Performance Analysis](/sales-performance-analysis)
 
-Live Dashboard: https://public.tableau.com/app/profile/shu.richardson/viz/SalesPerformanceAnalysis_17769194390800/SalesOverview
+**Live Dashboard:**  
+https://public.tableau.com/app/profile/shu.richardson/viz/SalesPerformanceAnalysis_17769194390800/SalesOverview
 
 **Objective:**  
 Analyze sales performance across regions and product categories to identify revenue trends and optimization opportunities.
