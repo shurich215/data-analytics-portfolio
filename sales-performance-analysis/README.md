@@ -8,7 +8,9 @@ The objective is to simulate a real-world business scenario where leadership nee
 
 ---
 
-## Dashboard Preview
+## Dashboard
+
+https://public.tableau.com/app/profile/shu.richardson/viz/SalesPerformanceAnalysis_17769194390800/SalesOverview
 
 ![Sales Dashboard](visualizations/dashboard_preview.png)
 
